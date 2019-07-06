@@ -22,10 +22,13 @@ public class ArbolBinario {
     public void algo(){
     
     }
-    
-    public void algoMas(){}
+   
     public void mensaje(){
         System.out.println("Algo");
+    }
+    
+    public void principal(){
+        System.out.println("algo nuevo");
     }
     public void agregarNodo(Nodo nNuevo) throws Exception{
         if(nRoot == null){
